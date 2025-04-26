@@ -42,21 +42,21 @@ L["HUNTERMarksmanship"] = "Agilità > Critico > Maestria > Celerità > Versatili
 L["HUNTERSurvival"] = "Agilità > Maestria > Celerità > Critico > Versatilità"
 
 --ROGUEAssassination
-L["ROGUEAssassination"] = "Critico > Maestria > Versatilità > Celerità"
+L["ROGUEAssassination"] = "Agilità > Critico > Maestria > Celerità > Versatilità"
 --ROGUEOutlaw
-L["ROGUEOutlaw"] = "Versatilità > Celerità > Critico > Maestria"
+L["ROGUEOutlaw"] = "Agilità > Versatilità > Celerità > Critico > Maestria"
 --ROGUESubtlety
-L["ROGUESubtlety"] = "Maestria > Versatilità > Critico > Celerità"
+L["ROGUESubtlety"] = "Agilità > Maestria > Versatilità > Critico > Celerità"
 
 --PRIESTDiscipline
-L["PRIESTDiscipline"] = "Intelletto > Celerità to 20%-25% > Critico = Maestria > Versatilità"
+L["PRIESTDiscipline"] = "Intelletto > Celerità (20%) > Critico = Maestria > Celerità (>20%) > Versatilità"
 --PRIESTHoly
-L["PRIESTHoly"] = "Myth+: Intelletto > Critico = Celerità > Versatilità > Maestria \n Raid: Intelletto > Critico = Maestria > Versatilità > Celerità"
+L["PRIESTHoly"] = "Myth+: Intelletto > Critico = Celerità > Versatilità > Maestria \n Raid: Intelletto > Critico = Maestria > Versatilità >= Celerità"
 --PRIESTShadow
 L["PRIESTShadow"] = "Intelletto > Celerità > Maestria > Critico > Versatilità"
 
 --SHAMANElemental
-L["SHAMANElemental"] = "Intelletto > Celerità = Maestria > Versatilità > Critico"
+L["SHAMANElemental"] = "Intelletto > Celerità = Maestria > Versatilità = Critico"
 --SHAMANEnhancement
 L["SHAMANEnhancement"] = "Maestria > Celerità > Critico > Versatilità > Agilità"
 --SHAMANRestoration
@@ -83,12 +83,12 @@ L["DRUIDFeral"] = "Maestria = Critico > Versatilità > Celerità > Agilità"
 --DRUIDGuardian
 L["DRUIDGuardian"] = "Sopravvivenza: Agilità > Celerità > Versatilità > Maestria > Critico \n DPS: Agilità > Versatilità = Celerità > Critico = Maestria"
 --DRUIDRestoration
-L["DRUIDRestoration"] = "Raid: Intelletto > Celerità > Maestria > Versatilità > Critico \n Dungeon Healing: Intelletto > Maestria = Celerità > Versatilità > Critico \n Dungeon Damage Dealing: Intelletto > Celerità > Versatilità > Critico > Maestria"
+L["DRUIDRestoration"] = "Raid: Intelletto > Celerità = Maestria > Versatilità > Critico \n Dungeon Healing: Intelletto > Maestria = Celerità > Versatilità > Critico \n Dungeon Damage Dealing: Intelletto > Celerità > Versatilità > Critico > Maestria"
 
 --MONKBrewmaster
 L["MONKBrewmaster"] = "Agilità = Armor > Versatilità = Maestria = Critico > Celerità"
 --MONKMistweaver
-L["MONKMistweaver"] = "Myth+: Intelletto > Celerità > Critico ≥ Maestria > Versatilità \n Raid: Intelletto > Celerità > Critico > Versatilità = Maestria"
+L["MONKMistweaver"] = "Myth+: Intelletto > Celerità > Critico >= Maestria > Versatilità \n Raid: Intelletto > Celerità > Critico > Versatilità = Maestria"
 --MONKWindwalker
 L["MONKWindwalker"] = "Agilità > Maestria = Celerità > Versatilità = Critico"
 
