@@ -2,11 +2,11 @@
 ## Title:|cffd6266cImportantStats|r
 ## Notes: Displays stat priority based on WoWHead
 ## Author: BloodDragon2580
-## Version: 10.2
+## Version: 10.4
 ## SavedVariablesPerCharacter: ImportantStatsDB
 ## IconTexture: Interface\AddOns\ImportantStats\Media\Texture\logo
 
-#27.02.2025
+#17.08.2025
 
 
 # Libraries
