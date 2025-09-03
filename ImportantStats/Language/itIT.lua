@@ -81,9 +81,9 @@ L["DRUIDBalance"] = "Intelletto > Maestria > Celerità > Versatilità > Critico"
 --DRUIDFeral
 L["DRUIDFeral"] = "Single-Target: Critico = Maestria > Celerità = Versatilità > Agilità \n Multi-Target: Critico = Maestria > Versatilità > Celerità > Agilità"
 --DRUIDGuardian
-L["DRUIDGuardian"] = "General Healing: Intelletto > Celerità = Maestria > Versatilità > Critico \n Dungeon Damage Dealing: Intelletto > Celerità > Versatilità > Critico > Maestria"
+L["DRUIDGuardian"] = "Agilità > Celerità > Versatilità > Maestria > Critico"
 --DRUIDRestoration
-L["DRUIDRestoration"] = "Raid: Intelletto > Celerità = Maestria > Versatilità > Critico \n Dungeon Healing: Intelletto > Maestria = Celerità > Versatilità > Critico \n Dungeon Damage Dealing: Intelletto > Celerità > Versatilità > Critico > Maestria"
+L["DRUIDRestoration"] = "General Healing: Intelletto > Celerità = Maestria > Versatilità > Critico \n Dungeon Damage Dealing: Intelletto > Celerità > Versatilità > Critico > Maestria"
 
 --MONKBrewmaster
 L["MONKBrewmaster"] = "Agilità = Armor > Versatilità = Maestria = Critico > Celerità"

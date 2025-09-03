@@ -81,9 +81,9 @@ L["DRUIDBalance"] = "Intelligenz > Meisterschaft > Tempo > Vielseitigkeit > Krit
 --DRUIDFeral
 L["DRUIDFeral"] = "Single-Target: Kritischer Trefferwert = Meisterschaft > Tempo = Vielseitigkeit > Beweglichkeit \n Multi-Target: Kritischer Trefferwert = Meisterschaft > Vielseitigkeit > Tempo > Beweglichkeit"
 --DRUIDGuardian
-L["DRUIDGuardian"] = "General Healing: Intelligenz > Tempo = Meisterschaft > Vielseitigkeit > Kritischer Trefferwert \n Dungeon Damage Dealing: Intelligenz > Tempo > Vielseitigkeit > Kritischer Trefferwert > Meisterschaft"
+L["DRUIDGuardian"] = "Beweglichkeit > Tempo > Vielseitigkeit > Meisterschaft > Kritischer Trefferwert"
 --DRUIDRestoration
-L["DRUIDRestoration"] = "Raid: Intelligenz > Tempo = Meisterschaft > Vielseitigkeit > Kritischer Trefferwert \n Dungeon Healing: Intelligenz > Meisterschaft = Tempo > Vielseitigkeit > Kritischer Trefferwert \n Dungeon Damage Dealing: Intelligenz > Tempo > Vielseitigkeit > Kritischer Trefferwert > Meisterschaft"
+L["DRUIDRestoration"] = "General Healing: Intelligenz > Tempo = Meisterschaft > Vielseitigkeit > Kritischer Trefferwert \n Dungeon Damage Dealing: Intelligenz > Tempo > Vielseitigkeit > Kritischer Trefferwert > Meisterschaft"
 
 --MONKBrewmaster
 L["MONKBrewmaster"] = "Beweglichkeit = Armor > Vielseitigkeit = Meisterschaft = Kritischer Trefferwert > Tempo"

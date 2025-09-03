@@ -81,9 +81,9 @@ L["DRUIDBalance"] = "Intellect > Mastery > Haste > Versatility > Critical Strike
 --DRUIDFeral
 L["DRUIDFeral"] = "Single-Target: Critical Strike = Mastery > Haste = Versatility > Agility \n Multi-Target: Critical Strike = Mastery > Versatility > Haste > Agility"
 --DRUIDGuardian
-L["DRUIDGuardian"] = "General Healing: Intellect > Haste = Mastery > Versatility > Critical Strike \n Dungeon Damage Dealing: Intellect > Haste > Versatility > Critical Strike > Mastery"
+L["DRUIDGuardian"] = "Agility > Haste > Versatility > Mastery > Critical Strike"
 --DRUIDRestoration
-L["DRUIDRestoration"] = "Raid: Intellect > Haste = Mastery > Versatility > Critical Strike \n Dungeon Healing: Intellect > Mastery = Haste > Versatility > Critical Strike \n Dungeon Damage Dealing: Intellect > Haste > Versatility > Critical Strike > Mastery"
+L["DRUIDRestoration"] = "General Healing: Intellect > Haste = Mastery > Versatility > Critical Strike \n Dungeon Damage Dealing: Intellect > Haste > Versatility > Critical Strike > Mastery"
 
 --MONKBrewmaster
 L["MONKBrewmaster"] = "Agility = Armor > Versatility = Mastery = Critical Strike > Haste"
