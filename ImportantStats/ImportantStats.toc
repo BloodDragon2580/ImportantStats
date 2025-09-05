@@ -2,33 +2,14 @@
 ## Title:|cffd6266cImportantStats|r
 ## Notes: Displays stat priority based on WoWHead
 ## Author: BloodDragon2580
-## Version: 10.8
-## SavedVariablesPerCharacter: ImportantStatsDB
+## Version: 10.9
+## SavedVariablesPerCharacter: IS_Config
+## OptionalDeps: LibStub
 ## IconTexture: Interface\AddOns\ImportantStats\Media\Texture\logo
 
 #03.09.2025
 
-
-# Libraries
-Library\LibStub\LibStub.lua
-Library\CallbackHandler-1.0\CallbackHandler-1.0.xml
-Library\AceAddon-3.0\AceAddon-3.0.xml
-Library\AceDB-3.0\AceDB-3.0.xml
-Library\AceDBOptions-3.0\AceDBOptions-3.0.xml
-Library\AceConsole-3.0\AceConsole-3.0.xml
-Library\AceGUI-3.0\AceGUI-3.0.xml
-Library\AceConfig-3.0\AceConfig-3.0.xml
-
-Library\LibSharedMedia-3.0\lib.xml
-Library\AceGUI-3.0-SharedMediaWidgets\widget.xml
-
-Library\LibDataBroker-1.1\LibDataBroker-1.1.lua
-Library\LibDBIcon-1.0\LibDBIcon-1.0.lua
-
-# Language
-Language\Default.lua
-Language\enUS.lua
-Language\deDE.lua
-Language\itIT.lua
-
+embeds.xml
 ImportantStats.lua
+Daten.lua
+Locale.lua
