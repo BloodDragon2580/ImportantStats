@@ -53,8 +53,7 @@ local data = {
     },
     -- 103 - Druid: Feral
     [103] = {
-        {"Critical Strike = Mastery > Haste = Versatility > Agility", "Single-Target"},
-        {"Critical Strike = Mastery > Versatility > Haste > Agility", "Multi-Target"},
+        {"Mastery = Critical Strike > Haste > Versatility > Agility"},
     },
     -- 104 - Druid: Guardian
     [104] = {
@@ -73,7 +72,7 @@ local data = {
     },
     -- 251 - Death Knight: Frost
     [251] = {
-        {"Critical Strike > Mastery > Haste > Versatility"},
+        {"Strength > Mastery > Critical Strike > Haste > Versatility"},
     },
     -- 252 - Death Knight: Unholy
     [252] = {
@@ -82,22 +81,15 @@ local data = {
 
     -- 253 - Hunter: Beast Mastery
     [253] = {
-        {"Agility > Haste (40%) > Mastery = Critical Strike > Haste (>40%) > Versatility", "Pack Leader (ST)"},
-        {"Agility > Haste (40%) > Critical Strike > Haste (>40%) > Mastery > Versatility", "Pack Leader (AoE)"},
-        {"Agility > Critical Strike = Haste > Versatility > Mastery", "Dark Ranger (ST)"},
-        {"Agility > Critical Strike = Haste > Mastery > Versatility", "Dark Ranger (AoE)"},
+        {"Agility > Haste to 30% > Critical Strike > Versatility > Mastery"},
     },
     -- 254 - Hunter: Marksmanship
     [254] = {
-        {"Weapon Damage > Critical Strike > Mastery > Versatility > Haste", "Single Target"},
-        {"Weapon Damage > Critical Strike > Mastery > Versatility > Haste", "Sentinel (AoE)"},
-        {"Weapon Damage > Critical Strike > Haste = Mastery > Versatility", "Dark Ranger (AoE)"},
+        {"Agility > Critical Strike to 54% > Mastery > Versatility > Haste"},
     },
     -- 255 - Hunter: Survival
     [255] = {
-        {"Agility > Mastery > Haste > Critical Strike > Versatility", "Pack Leader"},
-        {"Agility > Mastery > Critical Strike > Haste > Versatility", "Sentinel (ST)"},
-        {"Agility > Mastery > Haste > Critical Strike > Versatility", "Sentinel (AoE)"},
+        {"Agility > Mastery > Haste > Critical Strike > Versatility"},
     },
 
     -- 256 - Priest: Discipline
@@ -140,8 +132,7 @@ local data = {
     },
     -- 264 - Shaman: Restoration
     [264] = {
-        {"Intellect > Critical Strike > Versatility > Haste = Mastery", "General"},
-        {"Intellect > Haste = Critical Strike > Versatility > Mastery", "Farseer with Whispering Waves"},
+        {"Intellect > Haste = Critical Strike > Versatility > Mastery"},
     },
 
     -- 265 - Warlock: Affliction
