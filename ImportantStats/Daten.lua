@@ -8,15 +8,15 @@ if not IS_Config then IS_Config = { selected = {} } end
 local data = {
     -- 62 - Mage: Arcane
     [62] = {
-        {"Intellect > Haste > Versatility > Mastery > Critical Strike"},
+        {"Intellect > Mastery > Critical Strike > Versatility > Haste"},
     },
     -- 63 - Mage: Fire
     [63] = {
-        {"Intellect > Haste >> Mastery > Versatility > Critical Strike"},
+        {"Intellect > Haste > Mastery > Critical Strike > Versatility"},
     },
     -- 64 - Mage: Frost
     [64] = {
-        {"Intellect > Haste > Critical Strike (33.34%) > Mastery > Versatility > Critical Strike (>33.34%)"},
+        {"Intellect > Mastery > Critical Strike > Versatility > Haste"},
     },
 
     -- 65 - Paladin: Holy
@@ -31,7 +31,7 @@ local data = {
     },
     -- 70 - Paladin: Retribution
     [70] = {
-        {"Strength > Mastery = Critical Strike > Haste > Versatility"},
+        {"Strength > Mastery = Haste > Critical Strike > Versatility"},
     },
 
     -- 71 - Warrior: Arms
@@ -53,7 +53,7 @@ local data = {
     },
     -- 103 - Druid: Feral
     [103] = {
-        {"Mastery = Critical Strike > Haste > Versatility > Agility"},
+        {"Agility > Mastery > Critical Strike > Haste > Versatility"},
     },
     -- 104 - Druid: Guardian
     [104] = {
@@ -72,16 +72,16 @@ local data = {
     },
     -- 251 - Death Knight: Frost
     [251] = {
-        {"Strength > Mastery > Critical Strike > Haste > Versatility"},
+        {"Strength > Critical Strike > Mastery > Haste > Versatility"},
     },
     -- 252 - Death Knight: Unholy
     [252] = {
-        {"Haste > Mastery > Critical Strike > Versatility"},
+        {"Strength >  Mastery > Critical Strike > Versatility > Haste"},
     },
 
     -- 253 - Hunter: Beast Mastery
     [253] = {
-        {"Agility > Haste to 30% > Critical Strike > Versatility > Mastery"},
+        {"Agility > Critical Strike > Haste > Versatility > Mastery"},
     },
     -- 254 - Hunter: Marksmanship
     [254] = {
@@ -89,7 +89,7 @@ local data = {
     },
     -- 255 - Hunter: Survival
     [255] = {
-        {"Agility > Mastery > Haste > Critical Strike > Versatility"},
+        {"Agility > Mastery > Critical Strike > Haste > Versatility"},
     },
 
     -- 256 - Priest: Discipline
@@ -99,8 +99,7 @@ local data = {
     },
     -- 257 - Priest: Holy
     [257] = {
-        {"Intellect > Critical Strike = Mastery > Versatility >= Haste", "Raiding"},
-        {"Intellect > Critical Strike = Haste > Versatility > Mastery", "Mythic+"},
+        {"Intellect > Critical Strike > Versatility = Mastery > Haste"},
     },
     -- 258 - Priest: Shadow
     [258] = {
@@ -118,7 +117,7 @@ local data = {
     },
     -- 261 - Rogue: Subtlety
     [261] = {
-        {"Agility > Mastery > Versatility > Critical Strike > Haste"},
+        {"Agility > Mastery > Critical Strike > Haste > Versatility"},
     },
 
     -- 262 - Shaman: Elemental
@@ -127,8 +126,7 @@ local data = {
     },
     -- 263 - Shaman: Enhancement
     [263] = {
-        {"Haste > Mastery > Critical Strike > Versatility > Agility", "Stormbringer"},
-        {"Mastery > Haste > Critical Strike > Versatility > Agility", "Totemic"},
+        {"Agility > Mastery > Haste > Critical Strike > Versatility"},
     },
     -- 264 - Shaman: Restoration
     [264] = {
@@ -137,7 +135,7 @@ local data = {
 
     -- 265 - Warlock: Affliction
     [265] = {
-        {"Intellect > Mastery = Critical Strike > Haste > Versatility"},
+        {"Intellect > Mastery > Haste > Versatility > Critical Strike"},
     },
     -- 266 - Warlock: Demonology
     [266] = {
@@ -150,12 +148,11 @@ local data = {
 
     -- 268 - Monk: Brewmaster
     [268] = {
-        {"Agility > Versatility = Mastery = Critical Strike > Haste", "Defensive"},
-        {"Agility > Versatility = Critical Strike > Mastery > Haste", "Offensive"},
+        {"Agility = Armor > Versatility = Critical Strike = Mastery > Haste"},
     },
     -- 269 - Monk: Windwalker
     [269] = {
-        {"Weapon Damage > Agility > Mastery = Haste > Versatility = Critical Strike"},
+        {"Agility > Critical Strike > Haste > Mastery > Versatility"},
     },
     -- 270 - Monk: Mistweaver
     [270] = {
@@ -165,12 +162,15 @@ local data = {
 
     -- 577 - Demon Hunter: Havoc
     [577] = {
-        {"Critical Strike > Mastery > Haste > Versatility > Agility", "Aldrachi"},
-        {"Mastery = Critical Strike > Haste > Versatility > Agility", "Fel-Scarred"},
+        {"Agility > Critical Strike > Haste > Versatility > Mastery"},
     },
     -- 581 - Demon Hunter: Vengeance
     [581] = {
-        {"Agility > Haste = Critical Strike > Versatility > Mastery"},
+        {"Agility > Haste > Versatility = Critical Strike > Mastery"},
+    },
+    -- 1480 - Demon Hunter: Devourer
+    [1480] = {
+        {"Intellect > Haste > Mastery > Critical Strike > Versatility"},
     },
 
     -- 1467 - Evoker: Devastation
