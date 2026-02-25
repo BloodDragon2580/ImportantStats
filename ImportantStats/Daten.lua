@@ -76,7 +76,7 @@ local data = {
     },
     -- 252 - Death Knight: Unholy
     [252] = {
-        {"Strength >  Mastery > Critical Strike > Versatility > Haste"},
+        {"Strength > Mastery > Critical Strike > Haste > Versatility"},
     },
 
     -- 253 - Hunter: Beast Mastery
@@ -117,7 +117,7 @@ local data = {
     },
     -- 261 - Rogue: Subtlety
     [261] = {
-        {"Agility > Mastery > Critical Strike > Haste > Versatility"},
+        {"Agility > Haste > Critical Strike > Mastery > Versatility"},
     },
 
     -- 262 - Shaman: Elemental
@@ -135,7 +135,7 @@ local data = {
 
     -- 265 - Warlock: Affliction
     [265] = {
-        {"Intellect > Mastery > Haste > Versatility > Critical Strike"},
+        {"Intellect > Mastery = Haste > Critical Strike > Versatility"},
     },
     -- 266 - Warlock: Demonology
     [266] = {
@@ -170,7 +170,7 @@ local data = {
     },
     -- 1480 - Demon Hunter: Devourer
     [1480] = {
-        {"Intellect > Haste > Mastery > Critical Strike > Versatility"},
+        {"Intellect > Mastery > Haste > Critical Strike > Versatility"},
     },
 
     -- 1467 - Evoker: Devastation
